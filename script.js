@@ -20,6 +20,6 @@ function addbgcolor(e){
 }
 function addfontcolor(e){
 	for(let square of squares){
-		square.style.backgroundColor = "#6F4E37";
+		square.style.backgroundColor = "#E6E6FA";
 	}
 }
