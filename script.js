@@ -10,7 +10,7 @@ for(let square of squares){
 
 function addbgcolor(e){
 	const selectboxid = e.target.id
-	for(let i = 0;i<square.length;i++){
+	for(let i = 0;i<squares.length;i++){
 		if(squares[i].id !== selectedboxid){
 			squares[i].style.backgroundColor = "#6F4E37";
 		}
