@@ -2,7 +2,7 @@
 // const square1 = document.getElementId("square1")
 // const square2 = document.getElementId("square2")
 
-const squares = document.querySelectorAll("square")
+const squares = document.querySelectorAll(".square")
 for(let square of squares){
 square.addEventListener("mouseover",colorchange)
 square.addEventListener("mouseout",colorback)
